@@ -1,0 +1,52 @@
+#FilmList {
+  margin-top: 32px;
+  width: 100%;
+  padding: 16px;
+}
+
+#FilmList > .placeholder {
+  font-weight: lighter;
+  color: rgb(235, 12, 12);
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.Film {
+  margin-bottom: 50px;
+  box-shadow: 0 4px 8px 0 rgba(14, 220, 235, 0.2);
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.Film .fan-art-Film {
+  width: 23%;
+  max-height: 100%;
+  float: left;
+  display: block;
+
+}
+
+.Film-info {
+  padding: 5px;
+  float: right;
+  display: block;
+  width: 75%;
+  margin-left: 2px;
+}
+
+.Film-info > h2 {
+  font-weight: bold;
+
+}
+
+.Film-info > p {
+  margin-top: 10px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  text-align: justify;
+  -webkit-line-clamp: 10; /* number of lines to show */
+}
